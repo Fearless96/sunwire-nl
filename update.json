@@ -1,0 +1,22 @@
+{
+  "latest": "2.9.0",
+  "minVersion": "0.0.0",
+  "force": false,
+  "message": "SunWire NL 2.9.0 – automatic updates.",
+  "notes": [
+    "Check for updates in the main menu and the Esc menu",
+    "Your trainer can require an update remotely"
+  ],
+  "windows": {
+    "file": "SunWire-NL-Setup-2.9.0.exe",
+    "sha256": "ae450bb350edf1de12d1c8419f1e3be3ea5ed6fd2049c3a45140a08f0222d421"
+  },
+  "mac-arm64": {
+    "file": "SunWire-NL-2.9.0-mac-arm64.zip",
+    "sha256": "08bba14f35f0323d0e490891bfbfb59f60d5fe593968eaa09abdcbe3abc1f6ce"
+  },
+  "mac-x64": {
+    "file": "SunWire-NL-2.9.0-mac-x64.zip",
+    "sha256": "ca89495daaa0bb8d76ca993bdbf5fefef70827c0c49048e68ee4af8cbab9da7c"
+  }
+}
