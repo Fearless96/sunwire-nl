@@ -4,6 +4,8 @@ Electrical & sun-blind installer training simulator (NEN 1010, simplified).
 
 **Play on a phone or tablet (Android / iPhone / iPad):** https://fearless96.github.io/sunwire-nl/
 
+**Android app (APK):** https://fearless96.github.io/sunwire-nl/android/SunWire-NL.apk
+
 This repository holds the phone version (`docs/`) and the **updates** for the desktop program:
 
 - `update.json` – the update file the program checks at every start and every 15 minutes.
