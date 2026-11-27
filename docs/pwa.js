@@ -1,6 +1,6 @@
-// SunWire NL 2.10.0 – web app: offline + updates
+// SunWire NL 2.11.0 – web app: offline + updates
 (function () {
-  var CURRENT = "2.10.0";
+  var CURRENT = "2.11.0";
   var cb = null, reg = null, told = '';
   function cmp(a, b) { a = String(a).split('.').map(Number); b = String(b).split('.').map(Number); for (var i = 0; i < 3; i++) { if ((a[i] || 0) !== (b[i] || 0)) return (a[i] || 0) < (b[i] || 0) ? -1 : 1; } return 0; }
   if ('serviceWorker' in navigator && (location.protocol === 'https:' || /^(localhost|127.0.0.1)$/.test(location.hostname))) {

@@ -1,5 +1,5 @@
-// SunWire NL 2.10.0 – offline cache
-const CACHE = 'sunwire-2.10.0';
+// SunWire NL 2.11.0 – offline cache
+const CACHE = 'sunwire-2.11.0';
 const FILES = ["./","index.html","game.js","style.css","pwa.js","manifest.webmanifest","icons/icon-192.png","icons/icon-512.png","icons/icon-maskable-512.png","icons/apple-touch-icon.png"];
 self.addEventListener('install', e => { e.waitUntil(caches.open(CACHE).then(c => c.addAll(FILES))); });
 self.addEventListener('activate', e => { e.waitUntil(caches.keys().then(ks => Promise.all(ks.filter(k => k.startsWith('sunwire-') && k !== CACHE).map(k => caches.delete(k)))).then(() => self.clients.claim())); });

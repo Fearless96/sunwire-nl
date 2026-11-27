@@ -252,3 +252,27 @@ body.touch #panelwrap { padding-bottom: 0; }
 /* phones: keep the window title clear of the status line at the top */
 body.touch .panel { padding-top: 46px; }
 body.touch .panel .close, body.touch .panel .back { top: 8px; }
+#hotbar .slot .more { position: absolute; top: 1px; right: 4px; font-size: 10px; color: var(--acc); }
+.wirepick .swatches { display: grid; grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); gap: 8px; margin-top: 10px; }
+.wirepick .swatch { display: flex; align-items: center; gap: 8px; padding: 10px; border-radius: 8px; border: 2px solid var(--line); background: rgba(255,255,255,.04); color: var(--fg); font-size: 15px; cursor: pointer; }
+.wirepick .swatch.on { border-color: var(--acc); }
+.wirepick .swatch .sw { width: 30px; height: 30px; border-radius: 50%; border: 1px solid rgba(255,255,255,.4); flex: none; }
+.liftbtns { display: flex; flex-direction: column; gap: 6px; margin: 10px 0; max-width: 320px; }
+.liftbtn { display: flex; align-items: center; gap: 12px; padding: 10px 14px; border-radius: 10px; border: 2px solid var(--line); background: rgba(255,255,255,.04); color: var(--fg); font-size: 15px; cursor: pointer; text-align: left; }
+.liftbtn b { display: inline-flex; width: 34px; height: 34px; border-radius: 50%; align-items: center; justify-content: center; background: #2b3138; color: #ffd23f; font-size: 18px; }
+.liftbtn.on { border-color: var(--acc); }
+.designer { border: 1px solid var(--line); border-radius: 12px; padding: 12px; margin: 10px 0; background: rgba(255,255,255,.02); }
+.cd-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr); gap: 16px; }
+@media (max-width: 800px) { .cd-grid { grid-template-columns: 1fr; } }
+.cd-form { display: grid; gap: 10px; align-content: start; }
+.cd-form input[type=range] { width: 160px; vertical-align: middle; }
+.tabs.inline { display: inline-flex; flex-wrap: wrap; gap: 4px; }
+.cd-step { display: inline-flex; align-items: center; gap: 4px; margin-right: 10px; }
+.cd-step b { min-width: 16px; text-align: center; }
+.cd-plan { width: 100%; height: auto; background: #10161e; border-radius: 8px; }
+.cd-plan .cd-ext { stroke: #b4553a; stroke-width: 6; stroke-linecap: square; }
+.cd-plan .cd-int { stroke: #cfd6dc; stroke-width: 3; }
+.cd-plan .cd-win { stroke: #7cc4ff; stroke-width: 7; }
+.cd-plan .cd-door { stroke: #c9a36a; stroke-width: 7; }
+.cd-plan .cd-fridge { fill: #e8eaec; stroke: #888; }
+.cd-plan .cd-room { fill: #9aa6b2; font-size: 12px; }
